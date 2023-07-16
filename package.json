@@ -1,0 +1,10 @@
+{
+  "name": "orange",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.16.1"
+  },
+  "engineStrict": true,
+  "dependencies": {
+  }
+}
