@@ -1,10 +1,12 @@
-import typescript from '@rollup/plugin-typescript';
+import typescript from "@rollup/plugin-typescript";
 
 export default {
-  input: 'api/app.ts',
+  input: "api/app.ts",
   output: {
-    dir: 'dist',
-    format: 'es'
+    dir: "dist",
+    format: "es",
+    sourcemap: true,
   },
-  plugins: [typescript()]
+  external: ["express"],
+  plugins: [typescript()],
 };
