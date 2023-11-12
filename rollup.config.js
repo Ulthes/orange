@@ -1,7 +1,7 @@
 import typescript from "@rollup/plugin-typescript";
 
 export default {
-  input: "api/app.ts",
+  input: "src/server.ts",
   output: {
     dir: "dist",
     format: "es",
